@@ -9,7 +9,7 @@ Integral_exata = -1;
 
 printf("\n Método de Gauss-legendre\n")
 # Precisamos definir o número de pontos m onde aplicaremos o método de gauss-legendre
-m = 2 #número de pontos
+m = 10 #número de pontos
 
 #Vamos definir o resultado da integral
 Gm = f_gauss_legendre(m, a, b, f)

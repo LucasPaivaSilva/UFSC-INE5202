@@ -19,7 +19,7 @@ y2(1) = 1; #condição inicial
 y3(1) = 0; #condição inicial
 ye = @(x) sin(x); #solução exata
 
-printf("\n\nMétodo de Runge-Kutta - 4a ORDEM:\n")
+printf("\n Usando método de Runge-Kutta\n")
 n = 2^3 #Número de sub-intervalos do intervalo [a:b]
 [x y1 y2 y3] = f_metodo_runge_kutta_4a_3eq(n, a, b, fy1, fy2, fy3, x(1), y1(1), y2(1), y3(1)); #Quatro retornos
 erro_rk4 = abs(y1 - ye(x));
